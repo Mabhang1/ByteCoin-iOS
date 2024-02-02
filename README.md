@@ -1,5 +1,5 @@
 
-![Bytecoin Banner](Documentation/Bytecoin%20Swift.jpg)
+![Bytecoin Banner](Documentation/ByteCoin%20Mockup.jpg)
 
 #  Bytecoin
 
