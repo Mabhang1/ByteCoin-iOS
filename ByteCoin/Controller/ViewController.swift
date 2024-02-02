@@ -22,6 +22,10 @@ class ViewController: UIViewController{
         coinManager.delegate = self
         currencyPicker.delegate = self
         currencyPicker.dataSource = self
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = self.view.bounds
+        gradientLayer.colors = [UIColor.yellow.cgColor, UIColor.white.cgColor]
+        self.view.layer.insertSublayer(gradientLayer, at: 0)
     }
 }
 
